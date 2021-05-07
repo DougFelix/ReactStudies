@@ -7,12 +7,13 @@ import './App.css';
 //import Hangman from './5-hangman/Hangman';
 //import Board from './6-lightsoutgame/Board';
 //import BoxList from './7-colorboxmaker/BoxList';
-import TodoList from './8-todoapp/TodoList';
+//import TodoList from './8-todoapp/TodoList';
+import Yahtzee from './9-yahtzee/Yahtzee';
 
 function App() {
   return (
     <div className="App">
-      <TodoList />
+      <Yahtzee />
     </div>
   );
 }
