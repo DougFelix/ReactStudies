@@ -1,0 +1,65 @@
+.Pokecard {
+    background-color: lightgray;
+    background-image: url("pokebg.png");
+    background-size: cover;
+    height: 280px;
+    width: 197px;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin: 1rem;
+    box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+}
+.Pokecard:hover{
+    animation-name: scale;
+    animation-duration: 0.25s;
+    position: relative;
+    animation-fill-mode: forwards;
+    box-shadow:
+      0 0 0 5px hsl(100, 25%, 75%),
+      0 0 0 10px hsl(100, 25%, 90%);
+}
+
+.Pokecard-name {
+    color: black;
+    font-weight: bold;
+}
+
+.Pokecard-img {
+    width: 60%;
+    margin-bottom: 30px;
+    transition: all ease 500ms;
+}
+
+.Pokecard-img:hover {
+    animation-name: move;
+    animation-duration: 0.5s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+.Pokecard-info {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+@keyframes move {
+    0% {top: 0px;}
+    25% {
+        top: -5px;
+        transform: scaleX(1.1);
+    }
+    50% {
+        transform: scaleY(1.1) scaleX(1);
+    }
+    75% {
+        top: 5px;
+        transform: scaleX(1.1);
+    }
+    100% {top: 0px;}
+}
+
+@keyframes scale {
+    from {transform: scale(1);}
+    to {transform: scale(1.05);}
+}

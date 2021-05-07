@@ -1,0 +1,41 @@
+.Die {
+    font-size: 200px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Die i {
+    color: darkorchid;
+}
+
+.Die-Rolling {
+    animation: squeeze 1.2s forwards;
+}
+
+@keyframes squeeze {
+    0% {
+        transform-origin: bottom;
+        transform: translateY(0%) scale(1, 1);
+    }
+    10% {
+        transform-origin: initial;
+        transform: translateY(0%) scale(1.25, 0.75) rotate(0deg); 
+    }
+    50% {
+        transform-origin: initial;
+        transform: translateY(-100%) scale(1, 1) rotate(720deg);
+    }
+    55% { transform: translateY(-100%) rotate(15deg); }
+    60% { transform: translateY(-100%) rotate(-15deg); }
+    65% { transform: translateY(-100%) rotate(15deg); }
+    70% { transform: translateY(-100%) rotate(-15deg); }
+    90% {
+        transform-origin: initial;
+        transform: translateY(10%) scale(1.25, 0.75) ;
+    }
+    100% {
+        transform-origin: bottom;
+        transform: translateY(0%) scale(1, 1);
+    }
+}
