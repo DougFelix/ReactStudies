@@ -1,6 +1,14 @@
 # React Studies - Project collection
 
 Collection of projects made with [Create React App](https://github.com/facebook/create-react-app).
+- 8 - [Todo List App](https://github.com/DougFelix/ReactStudies#todo-list-app)
+- 7 - [Color Box Maker](https://github.com/DougFelix/ReactStudies#color-box-maker)
+- 6 - [Lights Out Game](https://github.com/DougFelix/ReactStudies#lights-out-game)
+- 5 - [Hangman Game](https://github.com/DougFelix/ReactStudies#hangman-game)
+- 4 - [Color Boxes](https://github.com/DougFelix/ReactStudies#color-boxes)
+- 3 - [Coin Flipper](https://github.com/DougFelix/ReactStudies#coin-flipper)
+- 2 - [Rolling Dice](https://github.com/DougFelix/ReactStudies#rolling-dice)
+- 1 - [Pokegame](https://github.com/DougFelix/ReactStudies#pokemon-game)
 
 ## Goal:
 The goal is to document all projects done during my React studies, their descriptions and study topics to better analyze my progress.
