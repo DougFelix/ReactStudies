@@ -8,7 +8,7 @@ class ScoreTable extends Component {
 
   render() {
     const { scores, doScore } = this.props;
-
+    
     return (
       <div className="ScoreTable">
         <section className="ScoreTable-section">

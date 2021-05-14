@@ -1,17 +1,52 @@
 # React Studies - Project collection
 
 Collection of projects made with [Create React App](https://github.com/facebook/create-react-app).
-- 8 - [Todo List App](https://github.com/DougFelix/ReactStudies#todo-list-app)
-- 7 - [Color Box Maker](https://github.com/DougFelix/ReactStudies#color-box-maker)
-- 6 - [Lights Out Game](https://github.com/DougFelix/ReactStudies#lights-out-game)
-- 5 - [Hangman Game](https://github.com/DougFelix/ReactStudies#hangman-game)
-- 4 - [Color Boxes](https://github.com/DougFelix/ReactStudies#color-boxes)
-- 3 - [Coin Flipper](https://github.com/DougFelix/ReactStudies#coin-flipper)
-- 2 - [Rolling Dice](https://github.com/DougFelix/ReactStudies#rolling-dice)
-- 1 - [Pokegame](https://github.com/DougFelix/ReactStudies#pokemon-game)
+- 10 - [Card Dealer]()
+- 09 - [Yahtzee Game]()
+- 08 - [Todo List App](https://github.com/DougFelix/ReactStudies#todo-list-app)
+- 07 - [Color Box Maker](https://github.com/DougFelix/ReactStudies#color-box-maker)
+- 06 - [Lights Out Game](https://github.com/DougFelix/ReactStudies#lights-out-game)
+- 05 - [Hangman Game](https://github.com/DougFelix/ReactStudies#hangman-game)
+- 04 - [Color Boxes](https://github.com/DougFelix/ReactStudies#color-boxes)
+- 03 - [Coin Flipper](https://github.com/DougFelix/ReactStudies#coin-flipper)
+- 02 - [Rolling Dice](https://github.com/DougFelix/ReactStudies#rolling-dice)
+- 01 - [Pokegame](https://github.com/DougFelix/ReactStudies#pokemon-game)
 
 ## Goal:
 The goal is to document all projects done during my React studies, their descriptions and study topics to better analyze my progress.
+
+# `Card Dealer`
+Finished: _13/05/2021_
+
+### Description:
+This project is an app that displays a deck of cards, one card at a time. When the page loads, it sends a request to an API to create a new deck. When the user draw a card, it sends another request to the API that gets a card from that specific deck. User can draw until the deck is empty.
+
+### Praticed Topics:
+* Lifecycle methods - componentDidMount()
+* Loading Data via AJAX - using axios
+* Async functions / await
+
+<p align="center">
+  <img src="gifs/10-deckofcards.gif" alt='10 - deckofcards'/>
+</p>
+
+# `Yahtzee Game`
+Finished: _11/05/2021_
+
+### Description:
+In this exercise the goal was to practice some of the topics learned so far in a "bigger" application (6 components). The app wasn't build from scratch. There were some bugs to fix and new features to add.
+
+Yahtzee is a chance-and-strategy dice rolling game. A game is played over 13 rounds.
+
+### Praticed Topics:
+* Component Design
+* Upward / Downward Data Flow
+* Passing props multiple levels deep
+* LocalStorage
+
+<p align="center">
+  <img src="gifs/9-yahtzee.jpg" alt='9 - yahtzee'/>
+</p>
 
 # `Todo List App`
 Finished: _05/05/2021_
@@ -158,3 +193,7 @@ A simple Pokemon based game (a “pokedex”) that displays an interface which r
 <p align="center">
   <img src="gifs/1-pokegame.gif" alt='1 - Pokegame'/>
 </p>
+
+# NOTES:
+
+To run any of the projects is required to `npm install`.
