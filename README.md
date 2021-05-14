@@ -1,8 +1,8 @@
 # React Studies - Project collection
 
 Collection of projects made with [Create React App](https://github.com/facebook/create-react-app).
-- 10 - [Card Dealer]()
-- 09 - [Yahtzee Game]()
+- 10 - [Card Dealer](https://github.com/DougFelix/ReactStudies#card-dealer)
+- 09 - [Yahtzee Game](https://github.com/DougFelix/ReactStudies#yahtzee-game)
 - 08 - [Todo List App](https://github.com/DougFelix/ReactStudies#todo-list-app)
 - 07 - [Color Box Maker](https://github.com/DougFelix/ReactStudies#color-box-maker)
 - 06 - [Lights Out Game](https://github.com/DougFelix/ReactStudies#lights-out-game)
