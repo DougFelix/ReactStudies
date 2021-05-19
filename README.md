@@ -1,6 +1,7 @@
 # React Studies - Project collection
 
 Collection of projects made with [Create React App](https://github.com/facebook/create-react-app).
+- 11 - [CheeZ Jokes App](https://github.com/DougFelix/ReactStudies#cheez-joke-app)
 - 10 - [Card Dealer](https://github.com/DougFelix/ReactStudies#card-dealer)
 - 09 - [Yahtzee Game](https://github.com/DougFelix/ReactStudies#yahtzee-game)
 - 08 - [Todo List App](https://github.com/DougFelix/ReactStudies#todo-list-app)
@@ -14,6 +15,24 @@ Collection of projects made with [Create React App](https://github.com/facebook/
 
 ## Goal:
 The goal is to document all projects done during my React studies, their descriptions and study topics to better analyze my progress.
+
+# `CheeZ Jokes App`
+Finished: _19/05/2021_
+
+### Description:
+This project was to build from scratch an app that lets people view and vote on cheesy jokes. To generate jokes, it was used the ICanHazDadJoke API.
+
+### Praticed Topics:
+* Lifecycle methods - componentDidMount()
+* Loading Data via AJAX - using axios
+* Async functions / await
+* LocalStorage
+* Loading spinner
+
+
+<p align="center">
+  <img src="gifs/11-cheezjokes.gif" alt='11 - cheezjokes'/>
+</p>
 
 # `Card Dealer`
 Finished: _13/05/2021_
