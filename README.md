@@ -1,6 +1,8 @@
 # React Studies - Project collection
 
 Collection of projects made with [Create React App](https://github.com/facebook/create-react-app).
+
+- 12 - [Vending Machine](https://github.com/DougFelix/ReactStudies#vending-machine)
 - 11 - [CheeZ Jokes App](https://github.com/DougFelix/ReactStudies#cheez-jokes-app)
 - 10 - [Card Dealer](https://github.com/DougFelix/ReactStudies#card-dealer)
 - 09 - [Yahtzee Game](https://github.com/DougFelix/ReactStudies#yahtzee-game)
