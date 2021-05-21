@@ -1,7 +1,7 @@
 # React Studies - Project collection
 
 Collection of projects made with [Create React App](https://github.com/facebook/create-react-app).
-- 11 - [CheeZ Jokes App](https://github.com/DougFelix/ReactStudies#cheez-joke-app)
+- 11 - [CheeZ Jokes App](https://github.com/DougFelix/ReactStudies#cheez-jokes-app)
 - 10 - [Card Dealer](https://github.com/DougFelix/ReactStudies#card-dealer)
 - 09 - [Yahtzee Game](https://github.com/DougFelix/ReactStudies#yahtzee-game)
 - 08 - [Todo List App](https://github.com/DougFelix/ReactStudies#todo-list-app)
@@ -15,6 +15,26 @@ Collection of projects made with [Create React App](https://github.com/facebook/
 
 ## Goal:
 The goal is to document all projects done during my React studies, their descriptions and study topics to better analyze my progress.
+
+
+# `Vending Machine`
+Finished: _20/05/2021_
+
+### Description:
+The main goal of this project was to use React Router to build a Vending Machine. Also, I used a little of SCSS for the animation.
+
+### Praticed Topics:
+* Client-Side Routing
+* React Router
+* Switch / Exact
+* Link Component
+* NavLinks
+* Render props / Component prop in Routes
+* SCSS
+
+<p align="center">
+  <img src="gifs/12-vendingmachine.gif" alt='12 - Vending machine'/>
+</p>
 
 # `CheeZ Jokes App`
 Finished: _19/05/2021_
