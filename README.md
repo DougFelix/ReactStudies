@@ -2,6 +2,7 @@
 
 Collection of projects made with [Create React App](https://github.com/facebook/create-react-app).
 
+- 13 - [Dog Finder](https://github.com/DougFelix/ReactStudies#dog-finder)
 - 12 - [Vending Machine](https://github.com/DougFelix/ReactStudies#vending-machine)
 - 11 - [CheeZ Jokes App](https://github.com/DougFelix/ReactStudies#cheez-jokes-app)
 - 10 - [Card Dealer](https://github.com/DougFelix/ReactStudies#card-dealer)
@@ -17,7 +18,23 @@ Collection of projects made with [Create React App](https://github.com/facebook/
 
 ## Goal:
 The goal is to document all projects done during my React studies, their descriptions and study topics to better analyze my progress.
+  <hr>
 
+# `Dog Finder`
+Finished: _26/05/2021_
+
+### Description:
+In this project I had to build an responsive app that allows a user to browse dogs. I used bootstrap to make it responsive, also the app is dinamic, it generates pages and navbar links based on its database.
+
+### Praticed Topics:
+* URL Params
+* Multiple Route Params
+* Redirect
+* Bootstrap
+
+<p align="center">
+  <img src="gifs/13-dogfinder.gif" alt='13 - Dog Finder'/>
+</p>
 
 # `Vending Machine`
 Finished: _20/05/2021_
