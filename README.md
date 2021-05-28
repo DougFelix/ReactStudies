@@ -2,6 +2,7 @@
 
 Collection of projects made with [Create React App](https://github.com/facebook/create-react-app).
 
+- 14 - [Router Calculator](https://github.com/DougFelix/ReactStudies#react-router-calculator)
 - 13 - [Dog Finder](https://github.com/DougFelix/ReactStudies#dog-finder)
 - 12 - [Vending Machine](https://github.com/DougFelix/ReactStudies#vending-machine)
 - 11 - [CheeZ Jokes App](https://github.com/DougFelix/ReactStudies#cheez-jokes-app)
@@ -20,6 +21,20 @@ Collection of projects made with [Create React App](https://github.com/facebook/
 The goal is to document all projects done during my React studies, their descriptions and study topics to better analyze my progress.
   <hr>
 
+# `React Router Calculator`
+Finished: _27/05/2021_
+
+### Description:
+This exercise was a routing-based calculator with React Router. It used multiple route params /:calc/:x/:y to determine the equation.
+
+### Praticed Topics:
+* URL Params
+* Multiple Route Params
+
+<p align="center">
+  <img src="gifs/14-calculator.gif" alt='14 - React Route Calculator'/>
+</p>
+
 # `Dog Finder`
 Finished: _26/05/2021_
 
@@ -28,7 +43,6 @@ In this project I had to build an responsive app that allows a user to browse do
 
 ### Praticed Topics:
 * URL Params
-* Multiple Route Params
 * Redirect
 * Bootstrap
 
