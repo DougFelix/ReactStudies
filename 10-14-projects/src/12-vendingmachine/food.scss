@@ -1,0 +1,155 @@
+.Food {    
+    height: 30rem;
+}
+
+.back {
+    height: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+
+.back a {
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    transition: all 0.5s;
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: white;
+}
+
+.snowContainer {
+    width: 100%;
+    height: 27rem;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    background-color: plum;
+    box-shadow:inset 0 0 20px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.snowExample {
+    position: absolute;
+
+    top: -30rem;
+    
+    text-align: center;
+
+    animation: SnowExampleSlide ease-in infinite;
+
+    -webkit-animation: SnowExampleSlide ease-in infinite;
+
+    -moz-animation: SnowExampleSlide ease-in infinite;
+
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-fill-mode: forwards;
+
+    animation-fill-mode: forwards;
+}
+
+$randTime1: random(6)+s;
+$randTime2: random(6)+s;
+$randTime3: random(6)+s;
+
+.drop1 {
+    height: (random(6)+5)+rem;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    margin-left: -4rem;
+}
+
+.drop2 {
+    height: (random(8)+5)+rem;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    margin-left: -4rem;
+}
+
+.drop3 {
+    height: (random(7)+5)+rem;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    margin-left: 7rem;
+}
+
+.drop4 {
+    height: (random(7)+5)+rem;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    margin-left: -7rem;
+}
+
+.drop5 {
+    height: (random(8)+5)+rem;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.drop6 {
+    height: (random(6)+5)+rem;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    margin-right: (random(10)-random(10))rem;
+}
+
+
+
+@keyframes SnowExampleSlide {
+    from {
+        position: absolute;
+        top: -300px;
+        transform: rotate(0deg);
+    }
+
+    to {
+        position: absolute;
+        top: 633px;
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes SnowExampleSlide {
+    from {
+        position: absolute;
+        top: -300px;
+        transform: rotate(0deg);
+    }
+
+    to {
+        position: absolute;
+        top: 633px;
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes SnowExampleSlide {
+    from {
+        position: absolute;
+        top: -300px;
+        transform: rotate(0deg);
+    }
+
+    to {
+        position: absolute;
+        top: 633px;
+        transform: rotate(360deg);
+    }
+}

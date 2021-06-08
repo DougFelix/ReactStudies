@@ -1,0 +1,11 @@
+body {
+    overflow: visible;
+    background: linear-gradient(to left top, #085078 10%, #85d8ce 90%) fixed;
+    font-family: 'Comfortaa', cursive;
+    background-repeat: no-repeat;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

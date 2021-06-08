@@ -1,0 +1,41 @@
+.newNav {
+    letter-spacing: 0.2rem;
+}
+
+.newA {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.newA:after {
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    width: 0%;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.newA:hover:after {
+    width: 90%;
+    left: 5%;
+    
+}
+
+.newA:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.navActive {
+    background: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+}

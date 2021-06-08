@@ -1,0 +1,164 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Better text styling */
+    font: bold 14px Arial, sans-serif;
+}
+
+/* Finally adding some IE9 fallbacks for gradients to finish things up */
+
+/* A nice BG gradient */
+html {
+    height: 100%;
+    background: white;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
+}
+
+/* Using box shadows to create 3D effects */
+#calculator {
+    width: 325px;
+    height: auto;
+
+    margin: 1rem auto;
+    padding: 20px 20px 9px;
+
+    background: #9dd2ea;
+    background: linear-gradient(#9dd2ea, #8bceec);
+    border-radius: 3px;
+    box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Top portion */
+.top span.clear {
+    float: left;
+}
+
+/* Inset shadow on the screen to create indent */
+.top .screen {
+    height: 60px;
+    width: 212px;
+
+    float: right;
+    margin: auto;
+    padding: 10px 10px;
+
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+
+    /* Typography */
+    font-size: 50px;
+    line-height: 40px;
+    color: black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    
+    animation: shake 0.5s infinite;
+}
+
+/* Clear floats */
+.keys,
+.top {
+    overflow: hidden;
+}
+
+/* Applying same to the keys */
+.keys span,
+.top span.clear {
+    float: left;
+    position: relative;
+    top: 0;
+
+    width: 66px;
+    height: 36px;
+
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+
+    margin: 0 7px 11px 0;
+
+    color: #888;
+    line-height: 36px;
+    text-align: center;
+
+    /* prevent selection of text inside keys */
+    user-select: none;
+
+    /* Smoothing out hover and active states using css3 transitions */
+    transition: all 0.2s ease;
+}
+
+.top span.clear {
+    height: 56px;
+}
+
+/* Remove right margins from operator keys */
+/* style different type of keys (operators/evaluate/clear) differently */
+.keys span.operator {
+    background: #FFF0F5;
+    margin-right: 0;
+}
+
+/* Some hover effects */
+.keys span.activeOperator {
+    background: #9c89f6;
+    box-shadow: 0px 4px #6b54d3;
+    color: black;
+    font-size: 20px;
+    margin-right: 0;
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+    0% {
+        
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}

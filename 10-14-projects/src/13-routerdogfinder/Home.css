@@ -1,0 +1,66 @@
+.Home-card {
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 15px 38px rgba(0, 0, 0, 0.3), 0 10px 12px rgba(0, 0, 0, 0.3);
+    transition: 0.5s all;
+    flex: 1 1 auto;
+    padding: 0;
+}
+
+.Home-myback-img {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: contain;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    border: 2px solid white;
+}
+
+.Home-myoverlay {
+    position: absolute;
+    background: -webkit-linear-gradient( bottom, transparent 0%, rgba(0, 0, 0, 0.74) 100%);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+    z-index: 2;
+}
+
+.Home-myoverlay:hover {
+    opacity: 0;
+    box-shadow: none;
+}
+
+.Home-card:hover {
+    transform: translateY(2%);
+    box-shadow: none;
+}
+
+
+.Home-myoverlay:hover ~ .Home-myback-img {
+    filter: none;
+}
+
+.Home-myoverlay:hover ~ .Home-profile-title {
+    color: black;
+    text-shadow:2px 2px white;
+    letter-spacing: 0.4rem;
+    font-weight: 900;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.Home-profile-title {
+    text-align: center;
+    position:absolute;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    z-index: 3;
+    letter-spacing: 0.2rem;
+    padding-top: 1rem;
+    transition: 0.5s all ease-in-out;
+}

@@ -1,0 +1,11 @@
+.RollDice {
+	text-align: center;
+    vertical-align: middle;
+    padding-top: 150px;
+}
+
+.RollDice-Dices {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}

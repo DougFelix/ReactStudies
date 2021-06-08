@@ -1,0 +1,99 @@
+.App {
+    background: linear-gradient(135deg,
+            rgba(179, 229, 252, 1) 0%,
+            rgb(255, 255, 255) 100%);
+
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+.VendingMachine {
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 1;
+    box-shadow: 0 10px 38px rgba(0, 0, 0, 0.2), 0 10px 12px rgba(0, 0, 0, 0.1);
+    background-color: lightgreen;
+}
+
+.Machine {
+    height: 30rem;
+    margin-top: -4px;
+}
+
+.Machine:hover {
+    animation: shake 0.5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+
+}
+
+nav {
+    height: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+nav a {
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    transition: all 0.5s;
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover,
+.navActive {
+    background-color: rgb(253, 62, 55);
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
