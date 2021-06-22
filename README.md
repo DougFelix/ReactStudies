@@ -2,6 +2,7 @@
 
 Collection of projects made with [Create React App](https://github.com/facebook/create-react-app).
 
+- 15 - [Massive Color Project](https://github.com/DougFelix/ReactStudies#massive-color-project)
 - 14 - [Router Calculator](https://github.com/DougFelix/ReactStudies#react-router-calculator)
 - 13 - [Dog Finder](https://github.com/DougFelix/ReactStudies#dog-finder)
 - 12 - [Vending Machine](https://github.com/DougFelix/ReactStudies#vending-machine)
@@ -20,6 +21,21 @@ Collection of projects made with [Create React App](https://github.com/facebook/
 ## Goal:
 The goal is to document all projects done during my React studies, their descriptions and study topics to better analyze my progress.
   <hr>
+ 
+# `Massive Color Project`
+Finished: WIP
+
+### Description:
+Massive react project that uses all topics studied so far plus a few libraries and new pieces of react. The Color Palette is a plataform where the user can create palettes and select/copy colors.
+
+### Praticed Topics:
+* Github and work flow
+* Handle CopyToClipboard - **Package [react-copy-to-clipboard](https://www.npmjs.com/package/react-copy-to-clipboard)** [Note 177]
+* Color conversions and color scales - **Package [chroma-js](http://vis4.net/chromajs/)** [Note 179]
+* Slider - **Package [rc-slider](https://www.npmjs.com/package/rc-slider)** [Note 180]
+
+<p align="center">
+</p>
 
 # `React Router Calculator`
 Finished: _27/05/2021_
