@@ -33,6 +33,7 @@ Massive react project that uses all topics studied so far plus a few libraries a
 * Handle CopyToClipboard - **Package [react-copy-to-clipboard](https://www.npmjs.com/package/react-copy-to-clipboard)** [Note 177]
 * Color conversions and color scales - **Package [chroma-js](http://vis4.net/chromajs/)** [Note 179]
 * Slider - **Package [rc-slider](https://www.npmjs.com/package/rc-slider)** [Note 180]
+* Material-UI Library - React components (IMO is better than react bootstrap)
 
 <p align="center">
 </p>
