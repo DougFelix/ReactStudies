@@ -34,6 +34,8 @@ Massive react project that uses all topics studied so far plus a few libraries a
 * Color conversions and color scales - **Package [chroma-js](http://vis4.net/chromajs/)** [Note 179]
 * Slider - **Package [rc-slider](https://www.npmjs.com/package/rc-slider)** [Note 180]
 * Material-UI Library - React components (IMO is better than react bootstrap)
+* React Router **Package [react-router-dom](https://reactrouter.com/web/guides/quick-start)** [Note 186]
+* Material-UI withStyles (SASS IN JS) **Package [material-ui\styles](https://material-ui.com/pt/styles/basics/)** [Note 189]
 
 <p align="center">
 </p>
